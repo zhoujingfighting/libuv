@@ -1,3 +1,4 @@
-[submodule "libuv"]
-	path = libuv
-	url = git@github.com:libuv/libuv.git
+
+[submodule "libuv-learning"]
+	path = libuv-learning
+	url = git@github.com:zhoujingfighting/libuv-learning.git
