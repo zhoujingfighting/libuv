@@ -1,0 +1,6 @@
+{
+    "clangd.fallbackFlags": [
+        "-I${workspaceFolder}/libuv/include/uv",
+        "-I${workspaceFolder}/libuv/include"
+    ]
+}
