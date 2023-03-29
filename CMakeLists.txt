@@ -10,7 +10,7 @@ set(
     PROJECT_SOURCE
     libuv-demo.cpp
 )
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Target related directory/lib settings
 
 
