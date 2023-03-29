@@ -1,11 +1,9 @@
-#include "uv.h"
+#include "common.h"
 #include <string>
 
 
-int main() {
+void hello_word() {
   uv_loop_t *loop = uv_default_loop();
-  printf("hello libuv");
+  std::cout << "hello libuv" << std::endl;
   uv_run(loop, UV_RUN_DEFAULT);
-
-  return 0;
 }
